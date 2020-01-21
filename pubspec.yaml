@@ -1,0 +1,35 @@
+name: neovo_clock
+description: A cool hybrid digital and analog clock for the flutter_clock challenge.
+version: 0.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.7.4"
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: third_party/Raleway/Raleway-Black.ttf
+        - asset: third_party/Raleway/Raleway-Bold.ttf
+        - asset: third_party/Raleway/Raleway-Regular.ttf
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/launcher/icon.png"
+  image_path_android: "assets/launcher/icon.png"
+  adaptive_icon_background: "assets/launcher/background.png"
+  adaptive_icon_foreground: "assets/launcher/foreground.png"
